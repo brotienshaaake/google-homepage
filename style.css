@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    font-size: 14px;
+    font-family: arial ,sans-serif;
 }
 
 #google-logo {
@@ -19,3 +21,56 @@ body {
     margin-right: auto;
 }
 
+.nav .right {
+    margin-left: 1470px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+
+  
+  li.nav{
+    float: left;
+  }
+  
+  li.nav a {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+
+  #app-icon,
+  #account-icon {
+      height: 25px;
+      width: 25px;
+  } 
+
+  img {
+      display: block;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(242, 242, 242);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(112, 117, 122);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
